@@ -51,8 +51,14 @@ O comando `ps` é uma convenção no Linux e significa Process List.
 
 Para visualizar os logs, utilizar o comando com o nome do container como `docker logs clone-tabnews-database-1`.
 
+### PSQL Client
+
 Instalando o client PSQL: `sudo apt install postgresql-client`
 
 Conectando no Postgre via PSQL `psql --host=localhost --username=postgres --port=5432`
 
 Para sair do PSQL: `\q`
+
+### PG
+
+Instalando o PG para usar o Postgre via node.js: `npm install pg@8.11.3`
